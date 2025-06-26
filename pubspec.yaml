@@ -1,0 +1,42 @@
+name: panaderia_delicia
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.14.0
+  cupertino_icons: ^1.0.8
+  
+  #dependencia de Firebase
+  firebase_auth: ^5.5.3
+  cloud_firestore: ^5.6.6
+  image_network: ^2.6.0
+  image_picker: ^1.0.0
+  provider: ^6.1.2
+  confetti: ^0.7.0
+  intl: ^0.19.0 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fondo1.jpg
+    - assets/fondo2.jpg
+    - assets/fondo3.jpg
+    - assets/boleta_fondo.jpg
+    - assets/yape_qr.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
